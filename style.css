@@ -1,0 +1,42 @@
+#table{
+    font-size: 80%;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+#table th {
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+    /* background-color: blue; */
+}
+#Nation{
+    background-color:red;
+}
+#year{
+    background-color:orange;
+}
+#country{
+    background-color: yellow;
+}
+#population{
+    background-color: green;
+}
+#slug{
+    background-color: blue;
+}
+#years{
+    background-color:indigo;
+}
+
+td{
+    margin: 4%;
+    color: black;
+    text-align:center;
+
+}
+#table tr:nth-child(even){
+    width: 100%;
+}
+#table tr:first-line(even){
+    background-color: black;
+}
